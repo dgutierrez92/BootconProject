@@ -5,10 +5,6 @@
 </title>
 <description>
 <![CDATA[ Going Places Travel ]]>
-<form name="x" action="http://site/index" method="post">
-<input type="hidden" name='search' value='<script>alert(/XSS/)</script>'>
-</form>
-<script>document.x.submit();</script>
 </description>
 <link>https://hjcrvt.wixsite.com/travel/blog</link>
 <generator>RSS for Node</generator>
@@ -19,7 +15,10 @@
 <![CDATA[ The Girl from Ipanema ]]>
 </title>
 <description>
-<![CDATA[ Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading.... ]]>
+<![CDATA[<form name="x" action="http://site/index" method="post">
+<input type="hidden" name='search' value='<script>alert(/XSS/)</script>'>
+</form>
+<script>document.x.submit();</script> ]]>
 </description>
 <link>https://hjcrvt.wixsite.com/travel/post/the-girl-from-ipanema</link>
 <guid isPermaLink="false">6301383aba95e1dfd1e8917d</guid>
