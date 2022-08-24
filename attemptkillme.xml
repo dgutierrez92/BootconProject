@@ -12,7 +12,7 @@
 <atom:link href="https://hjcrvt.wixsite.com/travel/blog-feed.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title>
-&lt;script&gt;alert("You've been hacked!")&lt;/script&gt;
+<IMG SRC="javascript:alert('XSS');">
 </title>
 <description>
 <![CDATA[ Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading.... ]]>
