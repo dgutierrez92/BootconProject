@@ -6,7 +6,7 @@
 <description>
 <![CDATA[ Going Places Travel ]]>
 </description>
-<link><script>alert("Hi")</script></link>
+<script>alert("Hi")</script>
 <generator>RSS for Node</generator>
 <lastBuildDate>Wed, 24 Aug 2022 03:36:22 GMT</lastBuildDate>
 <atom:link href="https://hjcrvt.wixsite.com/travel/blog-feed.xml" rel="self" type="application/rss+xml"/>
