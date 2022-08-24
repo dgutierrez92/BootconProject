@@ -4,7 +4,8 @@
 <![CDATA[ DontKnowYet ]]>
 </title>
 <description>
-<![CDATA[ Going Places Travel ]]>
+  </textarea>
+  <script>alert('XSS!')</script>
 </description>
 <link>https://hjcrvt.wixsite.com/travel/blog</link>
 <generator>RSS for Node</generator>
